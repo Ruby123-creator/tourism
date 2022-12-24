@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.collapse{
+    position: relative;
+    display: flex;
+    justify-content: end;
+    row-gap: 50px;
+    margin-right: 80px;
+
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    padding: 0 0;
+    z-index: 1000;
+    box-shadow: 0 20px 40px rgb(0 0 0 / 20%);
+}
+.navbar{
+    position: relative;
+    width: 100%;
+}
+.main-content{
+        max-width:1200px;
+        position: relative;
+        margin: 0 30px;
+        top: 90px;
+        left: 80px;    
+}
+.image-section{
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
+    justify-items: baseline;
+}
+.card{
+    width: 350px;
+    height: 350px;
+    margin: 20px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+}
+.card .card-body .btn{
+    border:none;
+    padding: 7px;
+    border-radius: 7%;
+    width: 55px;
+    background-color: dodgerblue;
+    font-size: small;
+    font-weight: 500;
+}
+.card-body{
+    margin-top:-12px;
+}
+.card-body p{
+    border-bottom: 1px solid lightgrey;
+    font-size:14px;
+    font-weight: 400;
+    font-family:'Times New Roman', Times, serif;
+    color:darkslategray;
+}
+.card-body span{
+    padding-left: 145px;
+    font-size:small;
+}
+.footer-section{
+    background-color: black;
+    color: white;
+    width: 100%;
+    position: relative;
+    top: 120px;
+    padding: 50px;
+    height: 350px;
+}
+.contact{
+    display:flex;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+.logo img{
+    border-radius: 20%;
+}
+.accio-logo .info p{
+    width:180px;
+    height:60px;
+    padding: 10px;
+    border: 1px solid lightgrey;
+    background-color: darkgray;
+    color: black;
+    border-radius: 20px;
+}
+.description{
+    padding-top: 50px; 
+}
